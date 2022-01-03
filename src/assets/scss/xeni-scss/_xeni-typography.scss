@@ -1,0 +1,174 @@
+$font-family: 'Poppins';
+@mixin font-normal {
+  font-family: $font-family;
+  font-style: normal !important;
+  font-weight: normal !important;
+}
+@mixin font-bold {
+  font-family: $font-family;
+  font-style: normal !important;
+  font-weight: bold !important;
+}
+@mixin font-600 {
+  font-family: $font-family;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+@mixin font-500 {
+  font-family: $font-family;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+.xh24-bold {
+  @include font-bold;
+  font-size: 24px !important;
+  color: #344050 !important;
+}
+.xh20-semi-bold {
+  @include font-600;
+  font-size: 20px !important;
+  color: #344050 !important;
+}
+.xh20-normal {
+  @include font-normal;
+  font-size: 20px !important;
+  color: #344050 !important;
+}
+.xh18-bold {
+  @include font-600;
+  font-size: 18px !important;
+  color: #344050 !important;
+}
+.xh18-normal {
+  @include font-normal;
+  font-size: 18px !important;
+  color: #344050 !important;
+}
+.xh18-semi-bold-grey {
+  @include font-600;
+  font-size: 18px !important;
+  color: #5D6E82 !important;
+}
+.xh-16-bold {
+  @include font-600;
+  font-size: 16px !important;
+  color: #344050 !important;
+}
+.xh-16-semi-bold {
+  @include font-600;
+  font-size: 16px !important;
+  color: #344050 !important;
+}
+.xh-14-bold {
+  @include font-bold;
+  font-size: 14px !important;
+  color: #344050 !important;
+}
+.xh-14-semi-bold {
+  @include font-600;
+  font-size: 14px !important;
+  color: #344050 !important;
+}
+.xh-14-semi-bold-grey {
+  @include font-600;
+  font-size: 14px !important;
+  color: #748194 !important;
+}
+.xp-14-medium {
+  @include font-500;
+  font-size: 14px !important;
+  color: #191919 !important;
+}
+.xp-14-medium-grey {
+  @include font-500;
+  font-size: 14px !important;
+  color: #5D6E82 !important;
+}
+.xp-14-regular {
+  @include font-normal;
+  font-size: 14px !important;
+  color: #191919 !important;
+}
+.xp-13-bold {
+  @include font-bold;
+  font-size: 13px !important;
+  color: #748194 !important;
+}
+.xp-12-medium {
+  @include font-500;
+  font-size: 13px !important;
+  color: #748194 !important;
+}
+.xp-13-semi-bold-grey {
+  @include font-600;
+  font-size: 13px !important;
+  color: #5D6E82 !important;
+}
+.xp-13-semi-bold-blue {
+  @include font-600;
+  font-size: 13px !important;
+  color: #2A7BE4 !important;
+}
+.xp-13-semi-bold-black {
+  @include font-600;
+  font-size: 13px !important;
+  color: #191919 !important;
+}
+.xp-13-regular {
+  @include font-normal;
+  font-size: 13px !important;
+  color: #748194 !important;
+}
+.xp1 {
+  @include font-600;
+  font-size: 12px !important;
+  color: #748194 !important;
+}
+.xp2 {
+  @include font-500;
+  font-size: 12px !important;
+  color: #748194 !important;
+}
+.xp1-black {
+  @include font-600;
+  font-size: 12px !important;
+  color: #344050 !important;
+}
+.xp2-black {
+  @include font-500;
+  font-size: 12px !important;
+  color: #344050 !important;
+}
+.form-check-input[type=radio] {
+  margin-top: 5px !important;
+}
+.bg-sort-active {
+  border-bottom: 2px solid var(--falcon-primary);
+  border-radius: 4px !important;
+  background-color: #f2f8fe !important;
+  transition: 500ms background-color ease-in-out;
+  transition-delay: 0s;
+  .xp-13-semi-bold-grey {
+    font-weight: bold !important;
+    color: #191919 !important;
+  }
+  .xh18-normal {
+    font-weight: 500 !important;
+    color: #191919 !important;
+  }
+}
+.bg-sort-hover:hover {
+  border-bottom: 2px solid var(--falcon-primary);
+  border-radius: 4px !important;
+  background-color: #f2f8fe !important;
+  transition: 150ms all ease-in-out;
+  transition-delay: 0s;
+  .xp-13-semi-bold-grey {
+    font-weight: bold !important;
+    color: #191919 !important;
+  }
+  .xh18-normal {
+    font-weight: 500 !important;
+    color: #191919 !important;
+  }
+}

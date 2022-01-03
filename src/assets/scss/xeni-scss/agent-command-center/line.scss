@@ -1,0 +1,46 @@
+.line {
+  top: 11%;
+  left: 45%;
+
+  img {
+    margin-top: -1px;
+    transform: rotate(43deg) !important;
+  }
+}
+.city {
+  margin-top: -6px;
+}
+
+.line:after {
+  content: '';
+  width: 100%;
+  border-bottom: solid 1px lightgrey;
+  position: absolute;
+  right: 120%;
+  top: 50%;
+  z-index: 1;
+}
+
+.line:before {
+  content: '';
+  width: 100%;
+  border-bottom: solid 1px lightgrey;
+  position: absolute;
+  left: 120%;
+  top: 50%;
+  z-index: 1;
+}
+
+.cartCard {
+  max-width: 500px;
+}
+.cartCollapse {
+  // max-width: 312px;
+  .form-check-label {
+    font-weight: 600 !important;
+    color: #344050;
+  }
+  .cartCollapseDate {
+    margin-top: -12px;
+  }
+}

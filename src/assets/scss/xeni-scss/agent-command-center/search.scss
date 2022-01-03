@@ -1,0 +1,53 @@
+.ticketSorter {
+  .sorter {
+    border-radius: 0px !important;
+  }
+
+  .sorter:hover {
+    border-radius: 0px !important;
+  }
+}
+
+.FlightDetails {
+  .roundedImg {
+    margin-top: -5px !important;
+  }
+}
+
+#popoverStyle {
+  min-width: 250px !important;
+  box-shadow: 2px 2px 8px 2px rgb(202, 198, 198);
+  border: none;
+}
+#popoverSeatClass {
+  box-shadow: 2px 2px 8px 2px rgb(202, 198, 198);
+  border: none;
+}
+
+.SearchResult:hover {
+  border-color: #515457 !important;
+}
+
+.SearchResult {
+  border: 1px solid white !important;
+
+  .popoverStyle .icon {
+    height: 11px;
+  }
+  .customTab .nav-tabs .nav-link {
+    color: rgb(145, 141, 141) !important;
+    // font-size: 1rem !important;
+    margin-right: 20px !important;
+  }
+  .customTab .nav-tabs .nav-link.active {
+    color: #000 !important;
+  }
+}
+
+.form-check-input,
+.form-check-label {
+  cursor: pointer;
+}
+// .form-check-input[type='checkbox'] {
+//   background: white;
+// }

@@ -1,0 +1,30 @@
+.rec-custom-style {
+	position: relative;
+	.rec-arrow {
+		position: absolute;
+		z-index: 50;
+		width: 32px;
+		height: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--falcon-btn-falcon-background);
+		color: var(--falcon-btn-falcon-primary-color);
+		box-shadow: var(--falcon-btn-falcon-box-shadow);
+		padding: 0.1875rem 0.75rem;
+		font-size: 0.875rem;
+		border-radius: 0.2rem;
+		border: 1px solid var(--falcon-btn-falcon-background);
+		top: 50%;
+	}
+
+	.rec-left-arrow {
+		left: 1rem;
+		transform: translate(50%, -50%);
+	}
+
+	.rec-right-arrow {
+		right: 1rem;
+		transform: translate(-50%, -50%);
+	}
+}

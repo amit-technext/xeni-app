@@ -1,0 +1,130 @@
+.position-absolute-form-popup-lr {
+	position: absolute !important;
+	z-index: 250;
+	transform-origin: top left;
+	opacity: 0;
+	transform: scale(0);
+	top: -10%;
+	left: -5%;
+	display: none;
+}
+
+.position-absolute-basic-dropdown-lr {
+	position: absolute !important;
+	left: 5%;
+	z-index: 250;
+	top: -38%;
+}
+.position-absolute-basic-dropdown-rl {
+	position: absolute !important;
+	left: -75%;
+	z-index: 250;
+	top: -38%;
+}
+.position-absolute-basic-dropdown-lr-mbl {
+	position: absolute !important;
+	right: 0;
+	z-index: 250;
+	top: 83%;
+}
+.open {
+	display: block !important;
+	animation: showPopup 0.2s forwards;
+}
+
+.closed {
+	animation: hidePopup 0.2s backwards;
+}
+
+@keyframes showPopup {
+	0% {
+		transform: scale(0.7);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+		display: block;
+	}
+}
+
+@keyframes hidePopup {
+	from {
+		transform: scale(1);
+		opacity: 1;
+		display: block;
+	}
+	to {
+		transform: scale(0.7);
+		opacity: 0;
+		visibility: hidden;
+		display: none;
+	}
+	//0% {
+	//  transform: scale(1);
+	//  opacity: 1;
+	//}
+	//100% {
+	//  transform: scale(0.7);
+	//  opacity: 0;
+	//  visibility: hidden;
+	//}
+}
+
+.position-absolute-form-popup-rl {
+	position: absolute !important;
+	z-index: 250;
+	right: -5%;
+	top: -5%;
+	transform-origin: top right;
+	opacity: 0;
+	transform: scale(0);
+}
+.position-absolute-form-popup {
+	position: absolute !important;
+	z-index: 250;
+	right: -160%;
+	top: -5%;
+}
+
+.selected-value {
+	color: black;
+	border-radius: 6px !important;
+	background-color: #f2f8fe !important;
+	z-index: 1;
+	font-weight: 600;
+	//box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	transition: 150ms background-color ease;
+	transition-delay: 0s;
+}
+
+.bg-hover:hover {
+	color: $dark !important;
+	border-radius: 6px !important;
+	// font-weight: 600 !important;
+	//border-color: var(--falcon-primary) !important;
+	background-color: $light !important;
+	//z-index: 1;
+	//box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	transition: 150ms background-color ease;
+	transition-delay: 0s;
+}
+
+.flightSearch {
+	max-height: 450px;
+	overflow: auto;
+	.textBox {
+		width: 200px;
+	}
+
+	.textBox:focus {
+		outline: none;
+	}
+	.textBox22 {
+		width: 30px;
+	}
+
+	.location_icon {
+		margin-top: -6px;
+	}
+}

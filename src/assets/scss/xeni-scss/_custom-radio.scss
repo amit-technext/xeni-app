@@ -1,0 +1,93 @@
+.radio-custom {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 0.15rem;
+  margin-left: 24px;
+
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.radio-custom input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.c-check-Mark {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: var(--falcon-100);
+  border: 1px solid var(--falcon-800);
+  border-radius: 50%;
+}
+
+.radio-custom:hover input ~ .c-check-Mark {
+  background-color: var(--falcon-200);
+  border-color: var(--falcon-primary);
+}
+
+.radio-custom input:checked ~ .c-check-Mark {
+  border-color: var(--falcon-primary);
+  background-color: var(--falcon-100);
+}
+
+.c-check-Mark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.radio-custom input:checked ~ .c-check-Mark:after {
+  display: block;
+}
+
+.radio-custom .c-check-Mark:after {
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--falcon-primary);
+}
+
+.radio-custom input:checked ~ label {
+  color: var(--falcon-primary);
+}
+
+.radio-custom label {
+  display: block;
+  cursor: pointer;
+  color: var(--falcon-800);
+}
+
+element.style {
+}
+.radio-custom {
+  position: relative;
+  padding-left: 25px;
+  /* margin-bottom: 0.5rem; */
+  margin-left: 24px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: fit-content;
+  cursor: pointer;
+}
+label {
+  font-size: 0.8333333333rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.1rem;
+}

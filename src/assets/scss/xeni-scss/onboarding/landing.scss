@@ -1,0 +1,234 @@
+// landing page css..........
+.landingPage {
+  .scrollBar {
+    margin-left: 75% !important;
+    margin-top: 6% !important;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 47% !important;
+    bottom: 1.25rem;
+    left: 7% !important;
+    top: 42% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left !important;
+  }
+
+  .carousel-indicators {
+    bottom: -65px !important;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: #000 !important;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .heroSection img {
+    height: 200px;
+  }
+}
+
+// sign up page css..........
+.SignupPage {
+  .SliderImg {
+    object-fit: cover;
+    height: 100vh;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 47% !important;
+    bottom: 1.25rem;
+    left: 7% !important;
+    top: 55% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left !important;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: #fff !important;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators {
+    left: -83%;
+    top: 68%;
+  }
+  .signup-card {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+  }
+}
+
+// LandingPage preview page css..........
+.LandingPreview {
+  .carousel-caption {
+    position: absolute;
+    right: 47% !important;
+    bottom: 1.25rem;
+    left: 7% !important;
+    top: 42% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    background-color: #fff !important;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .SignupPage {
+    .carousel-indicators {
+      left: -82%;
+      top: 73%;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .landingPage {
+    .carousel-caption {
+      width: 40% !important;
+      top: 22% !important;
+    }
+
+    .heroSection img {
+      height: 160px;
+    }
+  }
+  .SignupPage {
+    .carousel-indicators {
+      left: -80%;
+    }
+    .signup-card {
+      top: 34%;
+      right: 5%;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .landingPage {
+    .carousel-caption {
+      width: 41% !important;
+      top: 23% !important;
+    }
+  }
+
+  .SignupPage {
+    .signup-card {
+      left: 20%;
+      right: 20%;
+    }
+
+    .carousel-caption {
+      top: 12% !important;
+    }
+
+    .carousel-indicators {
+      display: none !important;
+    }
+
+    .SliderImg {
+      height: auto;
+    }
+  }
+}
+// surface duo
+@media only screen and (max-width: 575px) {
+  .SignupPage {
+    .signup-card {
+      top: 35%;
+      left: 5%;
+      right: 5%;
+    }
+  }
+
+  .landingPage {
+    .carousel-caption {
+      width: 43% !important;
+      top: 7% !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .landingPage {
+    .carousel-caption {
+      font-size: 12px !important;
+    }
+
+    .carousel-indicators {
+      display: none !important;
+    }
+  }
+
+  .SignupPage {
+    .carousel-caption {
+      top: 12% !important;
+      right: 18% !important;
+    }
+
+    .SliderImg {
+      height: auto;
+    }
+  }
+}
+
+.AddSection {
+  .carousel-indicators [data-bs-target] {
+    background-color: #000 !important;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+  }
+}
+
+// .slick-prev {
+//   display: none !important;
+// }
+
+// .slick-next {
+//   display: none !important;
+// }

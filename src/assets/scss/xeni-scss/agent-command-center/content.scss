@@ -1,0 +1,11 @@
+.content{
+    margin: 0px;
+}
+@media (min-width: 1200px){
+.navbar-vertical.navbar-expand-xl+.content {
+    margin-left: 13.1rem !important;}
+}
+@media (min-width: 1200px){
+.navbar-vertical-collapsed .navbar-vertical.navbar-expand-xl+.content {
+    margin-left: 3.125rem !important;
+}}

@@ -1,0 +1,48 @@
+@import '~bootstrap/scss/_functions';
+@import 'theme/functions';
+
+@import '~bootstrap/scss/mixins';
+@import 'theme/mixins';
+
+@import 'user-variables';
+@import 'theme/variables';
+@import '~bootstrap/scss/variables';
+
+//
+//
+// user.scss
+//
+// Place your own theme CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
+@import './xeni-scss/footer';
+@import 'xeni-scss/date-picker/custom-date-picker';
+@import './xeni-scss/date-picker';
+@import './xeni-scss/common';
+@import './xeni-scss/rec-custom-style';
+@import './xeni-scss/xeni-typography';
+@import './xeni-scss/rc-slider';
+
+// custom components
+@import './xeni-scss/custom-radio';
+
+// b2c desktop app view
+@import './xeni-scss/b2c-desktop-scss/details';
+@import './xeni-scss/b2c-desktop-scss/line';
+@import './xeni-scss/b2c-desktop-scss/search';
+@import './xeni-scss/b2c-desktop-scss/b2c-tweak';
+@import './xeni-scss/b2c-desktop-scss/forms';
+@import './xeni-scss/b2c-desktop-scss/_hotel-description';
+@import './xeni-scss/b2c-desktop-scss/custom-datepicker';
+
+// xeni app flow
+@import './xeni-scss/onboarding/landing';
+@import './xeni-scss/onboarding/customizeWebImg';
+@import './xeni-scss/onboarding/companyInformation';
+@import './xeni-scss/onboarding/checkoutForm';
+
+// agent-command-center-desktop
+@import './xeni-scss/agent-command-center/content.scss';
+@import './xeni-scss/agent-command-center/date-picker.scss';
+@import './xeni-scss/agent-command-center/details.scss';
+@import './xeni-scss/agent-command-center/form-input.scss';
+@import './xeni-scss/agent-command-center/line.scss';
+@import './xeni-scss/agent-command-center/slider.scss';

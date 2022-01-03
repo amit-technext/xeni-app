@@ -1,0 +1,53 @@
+//
+//
+// user-variables.scss
+//
+// Place your own variable overrides here, these will override any Bootstrap and theme variables.
+$utilities: ();
+$utilities: map_merge(
+  (
+    'width': (
+      property: width,
+      responsive: true,
+      class: w,
+      values: (
+        25: 25%,
+        30: 30%,
+        35: 35%,
+        40: 40%,
+        45: 45%,
+        50: 50%,
+        55: 55%,
+        60: 60%,
+        65: 65%,
+        70: 70%,
+        75: 75%,
+        80: 80%,
+        85: 85%,
+        90: 90%,
+        95: 95%,
+        100: 100%,
+        62: 62rem,
+        auto: auto
+      )
+    )
+  ),
+  $utilities
+);
+$container-max-widths: ();
+$container-max-widths: map-merge(
+  (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xm: 1350px,
+    xxl: 1480px
+  ),
+  $container-max-widths
+);
+
+$x-black-10: #0b1727;
+$x-white-100: #fff;
+
+$x-blue-1: #dcf5fc;

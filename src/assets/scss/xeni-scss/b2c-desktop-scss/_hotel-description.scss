@@ -1,0 +1,46 @@
+.singleHotelDesc {
+  .mainImage {
+    max-height: 384px;
+  }
+
+  .secondaryImage {
+    max-height: 188px;
+  }
+
+  .sticky-top-navbar {
+    position: sticky;
+    z-index: 1015;
+    top: 58px;
+  }
+}
+
+.customCloseBtn {
+  width: 1.7rem !important;
+  height: 1.7rem !important;
+  margin-top: -136px;
+  margin-left: -13px;
+}
+
+.hotelSearchMapShortButton {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--falcon-900);
+
+  svg {
+    color: var(--falcon-900);
+  }
+
+  &.selected,
+  &:hover {
+    background: var(--falcon-900);
+    border-color: var(--falcon-100);
+    cursor: pointer;
+
+    svg {
+      color: var(--falcon-100);
+    }
+  }
+}

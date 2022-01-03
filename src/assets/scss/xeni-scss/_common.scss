@@ -1,0 +1,50 @@
+// height
+.h-38px {
+	height: 38px;
+}
+
+// z-index
+.z-1000 {
+	z-index: 1000;
+}
+
+.z-1500 {
+	z-index: 1500;
+}
+
+// margin
+.c-mb--2 {
+	margin-bottom: -2px !important;
+}
+
+//border radius
+.rounded-capsule {
+	border-radius: 10px !important;
+}
+
+.box-shadow-none,
+.box-shadow-none:hover,
+.box-shadow-none:focus {
+	box-shadow: none !important;
+}
+
+.outline-none,
+.outline-none:focus,
+.outline-none:hover {
+	outline: none;
+}
+
+// sticky-top-60px
+.sticky-top-60 {
+	position: sticky;
+	top: 60px;
+	z-index: 50;
+}
+
+.fs-14px {
+	font-size: 14px;
+}
+
+.fs-12px {
+	font-size: 12px;
+}

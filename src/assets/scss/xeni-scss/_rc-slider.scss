@@ -1,0 +1,11 @@
+.rc-slider-color {
+  .rc-slider-track {
+    background-color: var(--falcon-primary) !important;
+  }
+  .rc-slider-handle {
+    border-color: var(--falcon-primary) !important;
+  }
+  .rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
+    box-shadow: 0 0 0 5px var(--falcon-primary) !important;
+  }
+}

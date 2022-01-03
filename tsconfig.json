@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+    "baseUrl": "src",
+    "target": "es2019",
+    "module": "esnext",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "ESNext.Array",
+      "ESNext.Intl",
+      "ESNext.Symbol",
+      "DOM"
+    ],
+    "jsx": "react-jsx",
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "./src/"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
